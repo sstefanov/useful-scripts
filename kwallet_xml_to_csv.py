@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+
+"""
+From KWallet export data to xml file.
+Start this program to read from xml file folder "Chrome Form Data"
+For each item extract url, usr and passwor and save them in csv file.
+Can recognize several user/password data in same entry.
+@sstefanov, 2025
+"""
 import xml.etree.ElementTree as ET
 import base64
 import csv
